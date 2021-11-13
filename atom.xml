@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://github.com/21up/article</id>
+    <id>https:// http://21up.github.io/article/</id>
     <title>Gridea</title>
-    <updated>2021-11-13T14:30:17.712Z</updated>
+    <updated>2021-11-13T14:37:23.536Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://github.com/21up/article"/>
-    <link rel="self" href="https://github.com/21up/article/atom.xml"/>
+    <link rel="alternate" href="https:// http://21up.github.io/article/"/>
+    <link rel="self" href="https:// http://21up.github.io/article/atom.xml"/>
     <subtitle>温故而知新</subtitle>
-    <logo>https://github.com/21up/article/images/avatar.png</logo>
-    <icon>https://github.com/21up/article/favicon.ico</icon>
+    <logo>https:// http://21up.github.io/article/images/avatar.png</logo>
+    <icon>https:// http://21up.github.io/article/favicon.ico</icon>
     <rights>All rights reserved 2021, Gridea</rights>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://github.com/21up/article/post/hello-gridea/</id>
-        <link href="https://github.com/21up/article/post/hello-gridea/">
+        <id>https:// http://21up.github.io/article/post/hello-gridea/</id>
+        <link href="https:// http://21up.github.io/article/post/hello-gridea/">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
