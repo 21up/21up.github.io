@@ -1,22 +1,96 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://21up.github.io</id>
-    <title>Gridea</title>
-    <updated>2021-12-06T10:22:03.673Z</updated>
-    <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://21up.github.io"/>
-    <link rel="self" href="https://21up.github.io/atom.xml"/>
-    <subtitle>温故而知新</subtitle>
-    <logo>https://21up.github.io/images/avatar.png</logo>
-    <icon>https://21up.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2021, Gridea</rights>
-    <entry>
-        <title type="html"><![CDATA[单例模式]]></title>
-        <id>https://21up.github.io/post/dan-li-mo-shi/</id>
-        <link href="https://21up.github.io/post/dan-li-mo-shi/">
-        </link>
-        <updated>2021-12-06T10:20:15.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="概念介绍">概念介绍</h2>
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>单例模式 | Gridea</title>
+<link rel="shortcut icon" href="https://21up.github.io/favicon.ico?v=1638786109723">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://21up.github.io/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="单例模式 | Gridea - Atom Feed" href="https://21up.github.io/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="概念介绍
+所谓类的单例设计模式，就是采取一定的方法保证在整个的软件系统中，对某个类只能存在一个对象实例， 并且该类只提供一个取得其对象实例的方法(静态方法)。
+比如Hibernate 的 SessionFactory，它充当数据存储源的代理..." />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://21up.github.io">
+  <img class="avatar" src="https://21up.github.io/images/avatar.png?v=1638786109723" alt="">
+  </a>
+  <h1 class="site-title">
+    Gridea
+  </h1>
+  <p class="site-description">
+    温故而知新
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          归档
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu">
+          标签
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          关于
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              单例模式
+            </h2>
+            <div class="post-info">
+              <span>
+                2021-12-06
+              </span>
+              <span>
+                13 min read
+              </span>
+              
+            </div>
+            
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <h2 id="概念介绍">概念介绍</h2>
 <p>所谓类的单例设计模式，就是采取一定的方法保证在整个的软件系统中，对某个类只能存在一个对象实例， 并且该类只提供一个取得其对象实例的方法(静态方法)。</p>
 <p>比如Hibernate 的 SessionFactory，它充当数据存储源的代理，并负责创建 Session 对象。SessionFactory 并不是 轻量级的，一般情况下，一个项目通常只需要一个 SessionFactory 就够，这是就会使用到单例模式。</p>
 <h2 id="几种实现单例的方式">几种实现单例的方式</h2>
@@ -442,38 +516,106 @@ public OSSClient getOssClient() {
 <p>https://www.jianshu.com/p/98cf7d8b9ec3</p>
 <p>Servlet</p>
 <p>https://www.cnblogs.com/shawshawwan/p/9002126.html</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://21up.github.io/post/hello-gridea/</id>
-        <link href="https://21up.github.io/post/hello-gridea/">
-        </link>
-        <updated>2018-12-11T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-<!-- more -->
-<p><a href="https://github.com/getgridea/gridea">Github</a><br>
-<a href="https://gridea.dev/">Gridea 主页</a><br>
-<a href="http://fehey.com/">示例网站</a></p>
-<h2 id="特性">特性👇</h2>
-<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
-<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
-<p>🏷️  你可以对文章进行标签分组</p>
-<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
-<p>💻  你可以在 <strong>Windows</strong>，<strong>MacOS</strong> 或 <strong>Linux</strong> 设备上使用此客户端</p>
-<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
-<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
-<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
-<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
-<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
-<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前 🏃</p>
-<p>未来，它一定会成为你离不开的伙伴</p>
-<p>尽情发挥你的才华吧！</p>
-<p>😘 Enjoy~</p>
-]]></content>
-    </entry>
-</feed>
+
+              </div>
+              <div class="toc-container">
+                <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li><a href="#%E6%A6%82%E5%BF%B5%E4%BB%8B%E7%BB%8D">概念介绍</a></li>
+<li><a href="#%E5%87%A0%E7%A7%8D%E5%AE%9E%E7%8E%B0%E5%8D%95%E4%BE%8B%E7%9A%84%E6%96%B9%E5%BC%8F">几种实现单例的方式</a>
+<ul>
+<li><a href="#%E9%A5%BF%E6%B1%89%E5%BC%8F%E9%9D%99%E6%80%81%E5%8F%98%E9%87%8F">饿汉式(静态变量)</a></li>
+<li><a href="#%E9%A5%BF%E6%B1%89%E5%BC%8F%E9%9D%99%E6%80%81%E4%BB%A3%E7%A0%81%E5%9D%97">饿汉式（静态代码块）</a></li>
+<li><a href="#%E6%87%92%E6%B1%89%E5%BC%8F%E7%BA%BF%E7%A8%8B%E4%B8%8D%E5%AE%89%E5%85%A8">懒汉式(线程不安全)</a></li>
+<li><a href="#%E6%87%92%E6%B1%89%E5%BC%8F%E7%BA%BF%E7%A8%8B%E5%AE%89%E5%85%A8%E5%90%8C%E6%AD%A5%E6%96%B9%E6%B3%95">懒汉式(线程安全，同步方法)</a></li>
+<li><a href="#%E6%87%92%E6%B1%89%E5%BC%8F%E7%BA%BF%E7%A8%8B%E5%AE%89%E5%85%A8%E5%90%8C%E6%AD%A5%E4%BB%A3%E7%A0%81%E5%9D%97">懒汉式(线程安全，同步代码块)</a></li>
+<li><a href="#%E5%8F%8C%E9%87%8D%E6%A3%80%E6%9F%A5">双重检查</a></li>
+<li><a href="#%E9%9D%99%E6%80%81%E5%86%85%E9%83%A8%E7%B1%BB">静态内部类</a></li>
+<li><a href="#%E6%9E%9A%E4%B8%BE">枚举</a></li>
+</ul>
+</li>
+<li><a href="#%E5%9C%A8-jdk-%E5%BA%94%E7%94%A8%E7%9A%84%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90">在 JDK 应用的源码分析</a></li>
+<li><a href="#%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9%E5%92%8C%E7%BB%86%E8%8A%82%E8%AF%B4%E6%98%8E">注意事项和细节说明</a></li>
+<li><a href="#%E5%9C%A8%E9%A1%B9%E7%9B%AE%E7%9A%84%E5%BA%94%E7%94%A8">在项目的应用</a>
+<ul>
+<li><a href="#%E5%B7%A5%E5%8D%95%E7%B3%BB%E7%BB%9F%E4%BC%98%E5%8C%96ossclient">工单系统优化ossClient</a></li>
+<li><a href="#%E4%BB%BB%E5%8A%A1%E7%B3%BB%E7%BB%9F%E4%BC%98%E5%8C%96ossclient">任务系统优化ossClient</a></li>
+<li><a href="#%E5%85%B6%E4%BB%96%E7%B3%BB%E7%BB%9F%E4%B8%ADhttpclient%E7%9A%84%E5%8D%95%E4%BE%8B%E5%8C%96">其他系统中HttpClient的单例化</a></li>
+</ul>
+</li>
+<li><a href="#%E5%8F%82%E8%80%83">参考</a></li>
+</ul>
+</li>
+</ul>
+
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://21up.github.io/post/hello-gridea/">
+              <h3 class="post-title">
+                Hello Gridea
+              </h3>
+            </a>
+          </div>
+        
+
+        
+
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+  <a class="rss" href="https://21up.github.io/atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>
