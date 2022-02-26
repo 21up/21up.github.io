@@ -3,7 +3,7 @@
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>单例模式 | Gridea</title>
-<link rel="shortcut icon" href="https://21up.github.io/favicon.ico?v=1639042557973">
+<link rel="shortcut icon" href="https://21up.github.io/favicon.ico?v=1645864039310">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://21up.github.io/styles/main.css">
 <link rel="alternate" type="application/atom+xml" title="单例模式 | Gridea - Atom Feed" href="https://21up.github.io/atom.xml">
@@ -23,7 +23,7 @@
       <div class="main-content">
         <div class="site-header">
   <a href="https://21up.github.io">
-  <img class="avatar" src="https://21up.github.io/images/avatar.png?v=1639042557973" alt="">
+  <img class="avatar" src="https://21up.github.io/images/avatar.png?v=1645864039310" alt="">
   </a>
   <h1 class="site-title">
     Gridea
@@ -569,6 +569,32 @@ public OSSClient getOssClient() {
           </div>
         
 
+        
+          
+            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container"></div>
+
+<script>
+
+  var gitalk = new Gitalk({
+    clientID: 'd92f58c1ff65b8ed08d3',
+    clientSecret: '129cf7c03f91cf6f559e31f65e402f94b296ac40',
+    repo: '21up.github.io',
+    owner: '21up',
+    admin: ['21up'],
+    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
+
+  gitalk.render('gitalk-container')
+
+</script>
+
+          
+
+          
         
 
         <div class="site-footer">

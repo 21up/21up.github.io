@@ -2,14 +2,14 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://21up.github.io</id>
     <title>Gridea</title>
-    <updated>2021-12-09T09:36:01.534Z</updated>
+    <updated>2022-02-26T08:31:48.044Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://21up.github.io"/>
     <link rel="self" href="https://21up.github.io/atom.xml"/>
     <subtitle>温故而知新</subtitle>
     <logo>https://21up.github.io/images/avatar.png</logo>
     <icon>https://21up.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2021, Gridea</rights>
+    <rights>All rights reserved 2022, Gridea</rights>
     <entry>
         <title type="html"><![CDATA[单例模式]]></title>
         <id>https://21up.github.io/post/dan-li-mo-shi/</id>
